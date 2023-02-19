@@ -161,7 +161,7 @@ img{
   width: 100%;
   margin: 20px auto ;
   background-color:#F8F8F2;
-  background-image:url(../img/sayt-hiro-logo/Rectangle.png)
+  background-image:url(../img/sayt-hiro-logo/Rectangle.png);
 }
 .main__collection-title {
   width: 100%;
@@ -217,6 +217,8 @@ img{
 }
 /* MAIN FEATURS  */
 .main__featurs-wrapper {
+  width: 100%;
+  height: 935px;
 
 }
 .main__featues-container {
@@ -254,13 +256,16 @@ img{
   height: 629px;
 }
 .featurs-img {
+  width: 433px;
+  height: 500px;
 }
 .featurs-box-header {
   font-size: 30px;
-  font-weight: 600;
+  font-weight: 560;
   font-style: normal;
   font-family: 'roboto',sans-serif;
   line-height: 35px;
+  margin-top: 20px;
 }
 .featurs-box-text {
   width: 370px;
@@ -269,4 +274,70 @@ img{
   font-weight: 400;
   line-height: 28px;
   margin-top: 10px;
+}
+/* MAIN HOW IT WORKS */
+.main__how-it-works {
+  width: 100%;
+  height: 826px;
+  background-color:#0A775F;
+  background-image:url(../img/sayt-hiro-logo/Rectangle.png);
+  padding:50px 30px;
+}
+.main__works-iner {
+  display: flex;
+  flex-direction: column;
+  align-items:center;
+}
+.main__works-heading {
+  font-family: 'roboto',sans-serif,arial;
+  font-size: 50px;
+  line-height: 58px;
+  font-weight: 700;
+  color:#fff;
+  text-transform: uppercase;
+  margin-bottom: 80px;
+}
+.main__works-list {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+}
+.works-list-item {
+  width: 433px;
+  height: 396px;
+  background-color: #ffffff;
+  padding: 20px 20px 40px 20px;
+  margin-bottom: 60px;
+}
+.works-list-item:not(:last-child){
+  margin-right: 20px;
+}
+.works-item-namber {
+  font-size: 64px;
+  line-height: 75px;
+  font-weight: 400;
+  color:#333333;
+  text-align: end;
+  margin-bottom: 45px;
+}
+.works-item-heading {
+  width: 231px;
+  height: 94px;
+  font-family: "roboto",arial;
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 48px;
+  color:#333333;
+  margin-bottom: 10px;
+}
+.works-item-text {
+  font-family: "roboto",sans-serif;
+  font-size: 18px;
+  line-height: 28px;
+  font-style: normal;
+  font-weight: 400;
+  color:#333333;
+}
+.amin__works-button{
+  background-color:#C99B67;
 }
