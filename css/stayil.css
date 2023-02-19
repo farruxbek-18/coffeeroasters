@@ -1,3 +1,6 @@
+:root{
+  --text-color:#333;
+}
 /* GLOBAL */
 html{
   height: 100%;
@@ -19,22 +22,135 @@ body{
   font-family: 'Roboto', sans-serif;
   font-size: 16px;
   line-height: 1.5;
-  background-color: rgb(132, 31, 31);
+  background-color: #fff;
   color: #222;
 }
 img{
   max-width: 100%;
   height: auto;
 }
+/* EFECTLAR */
+.hov-act:hover{
+  opacity: 0.8;
+}
+.hov-act:active{
+  opacity: 0.6;
+}
 /* CONTAINER */
 .container{
   width: 100%;
-  max-width: 1200px;
-  padding-left: 50px;
-  padding-right: 50px;
+  max-width: 1440px;
+  padding-left: 20px;
+  padding-right: 20px;
   margin: auto;
 }
 /* MAI-CONTANENT */
 .main-content{
   flex-grow: 1;
+}
+/* sait hiro */
+.site-header-hero-wrapper {
+  background-color:#F3D7B7;
+}
+.site-hiro {
+
+
+}
+.sate-nav {
+  width: 1340px;
+  margin:40px auto;
+  display: flex;
+
+}
+.site-nav-logo {
+  flex-grow: 1;
+}
+.site-nav-logo-link {
+  display: flex;
+  width: 235px;
+  height: 24;
+
+}
+.site-nav-list {
+  list-style: none;
+  margin: 0px;
+}
+.site-nav-list-item {
+  display:inline-block;
+}
+
+.site-nav-list-link{
+  text-decoration: none;
+  font-size: 12px;
+  font-family: "roboto";
+  font-weight: 700;
+  line-height: 14px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color:var(--text-color)
+
+}
+.site-nav-list-item:not(:last-child){
+  margin-right: 40px;
+}
+
+/* SITE HIRO CONTENT */
+.site-hiro {
+  display: flex;
+}
+.site-hiro-content {
+  width: 100%;
+  max-width: 700px;
+
+}
+.site-hiro-content-box {
+  width: 464px;
+  height: 331px;
+
+  margin: 156px 0px 0px 150px;
+}
+.site-hiro-content-hedig {
+  font-family: "roboto";
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 75px;
+  margin: 0px;
+  margin-bottom: 24px;
+}
+.site-hiro-content-text {
+  font-size: 17px;
+  line-height: 24px;
+  font-weight: 500;
+  font-family: 'roboto';
+  color:#000;
+  margin: 0px;
+  margin-bottom: 34px;
+}
+.site-hiro-content-bt-link {
+  display: inline-block;
+  width: 199px;
+  height: 51px;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-family: 'roboto';
+  letter-spacing: 1px;
+  font-size: 14px;
+  text-align: center;
+  padding:16px 0px ;
+  border-radius: 100px;
+  color:#fff;
+  background-color:#0A775F;
+}
+.site-hiro-img {
+  width: 100%;
+  max-width: 710px;
+  height: 696px;
+  margin-right: -20px;
+  background-image: url(../img/sayt-hiro-logo/Rectangle\ 679.png);
+}
+.site-hiro-img-logo {
+  width: 160px;
+  height: 160px;
+  margin-top: -65px;
+  margin-left: -65px;
 }
