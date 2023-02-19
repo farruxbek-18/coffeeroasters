@@ -27,7 +27,7 @@ body{
   font-family: 'Roboto', sans-serif;
   font-size: 16px;
   line-height: 1.5;
-  background-color: #fff;
+  background-color: rgb(220, 214, 214);
   color: #222;
 }
 img{
@@ -48,14 +48,16 @@ img{
   padding-left: 20px;
   padding-right: 20px;
   margin: auto;
+  background-color:#ffffff;
 }
 /* MAI-CONTANENT */
 .main-content{
   flex-grow: 1;
 }
 /* sait hiro */
-.site-header-hero-wrapper {
+.site-hiro-container {
   background-color:#F3D7B7;
+  padding-top: 1px;
 }
 
 .sate-nav {
@@ -147,7 +149,7 @@ img{
   width: 100%;
   max-width: 710px;
   height: 696px;
-  margin-right: -20px;
+  margin-right: -10px;
   background-image: url(../img/sayt-hiro-logo/Rectangle\ 679.png);
 }
 .site-hiro-img-logo {
@@ -282,6 +284,8 @@ img{
   background-color:#0A775F;
   background-image:url(../img/sayt-hiro-logo/Rectangle.png);
   padding:50px 30px;
+  margin-top: 80px;
+  margin-bottom: 50px;
 }
 .main__works-iner {
   display: flex;
@@ -340,4 +344,44 @@ img{
 }
 .amin__works-button{
   background-color:#C99B67;
+}
+/* FOOTER SAIT */
+.footer__iner {
+  background-color:#F3D7B7;
+  background-image: url(../img/sayt-hiro-logo/Rectangle.png);
+}
+
+.footer-nav{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin: 0px;
+  padding: 68px 50px;
+}
+.site-footer-logo {
+  display: flex;
+  width: 203px;
+  height: 24px;
+}
+.footer__list {
+  list-style: none;
+  display: flex;
+}
+.footer__list-item:not(:last-child){
+  margin-right: 30px;
+}
+.list-item-link {
+  text-decoration: none;
+  font-size: 17px;
+  font-family: "roboto",sans-serif;
+  font-weight: 700;
+  line-height: 30px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color:#333333;
+}
+
+.list-item-icon{
+  width: 30px;
+  height: 30px;
 }
