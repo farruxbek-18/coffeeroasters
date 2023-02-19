@@ -1,5 +1,6 @@
 :root{
   --text-color:#333;
+  --layt-wihyt:#ffffff;
 }
 /* GLOBAL */
 html{
@@ -56,10 +57,7 @@ img{
 .site-header-hero-wrapper {
   background-color:#F3D7B7;
 }
-.site-hiro {
 
-
-}
 .sate-nav {
   width: 1340px;
   margin:40px auto;
@@ -72,7 +70,7 @@ img{
 .site-nav-logo-link {
   display: flex;
   width: 235px;
-  height: 24;
+  height: 24px;
 
 }
 .site-nav-list {
@@ -168,7 +166,7 @@ img{
 .main__collection-title {
   width: 100%;
   display: inline-block;
-  font-family: 'roboto' sans-serif;
+  font-family: 'roboto', sans-serif;
   font-size: 50px;
   line-height: 58px;
   font-weight: 700;
@@ -216,4 +214,59 @@ img{
   font-weight: 400;
   font-size: 22px;
   line-height: 34px;
+}
+/* MAIN FEATURS  */
+.main__featurs-wrapper {
+
+}
+.main__featues-container {
+  width: 100%;
+  height: 703px;
+  background-color:#C99B67;
+  background-image:url(../img/sayt-hiro-logo/Rectangle.png)
+
+}
+.main__featurs-header {
+  font-family: 'roboto',sans-serif;
+  font-size: 50px;
+  font-weight: 58px;
+  font-weight: 700;
+  text-align: center;
+  padding-top: 50px;
+  color:var(--layt-wihyt);
+}
+.main__featurs-text {
+  width: 581px;
+  font-family: 'roboto',sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  text-align: center;
+  color:#d9dcdc;
+  margin:10px auto 80px
+}
+.main__featurs-img-container {
+  display: flex;
+  justify-content: space-evenly;
+}
+.main__featurs-img-box {
+  width: 433px;
+  height: 629px;
+}
+.featurs-img {
+}
+.featurs-box-header {
+  font-size: 30px;
+  font-weight: 600;
+  font-style: normal;
+  font-family: 'roboto',sans-serif;
+  line-height: 35px;
+}
+.featurs-box-text {
+  width: 370px;
+  font-size: 18px;
+  font-family: 'roboto',sans-serif;
+  font-weight: 400;
+  line-height: 28px;
+  margin-top: 10px;
 }
